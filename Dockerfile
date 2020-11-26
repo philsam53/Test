@@ -1,4 +1,4 @@
-FROM microsoft/dotnet-framework:4.7
+FROM ubuntu
 ADD /src /app
 WORKDIR /app
 RUN ["dnu", "restore"]
